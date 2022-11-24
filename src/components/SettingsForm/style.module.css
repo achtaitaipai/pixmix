@@ -1,0 +1,14 @@
+.form {
+	padding-block: 2rem;
+	width: fit-content;
+	display: flex;
+	gap: 2rem;
+	margin: auto;
+	align-items: center;
+}
+
+.form label {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}

@@ -1,0 +1,28 @@
+.header {
+	padding-block: 3rem;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	place-items: center;
+	gap: 2rem;
+	padding-inline: 3rem;
+}
+
+.spriteWrapper {
+	width: 500px;
+	height: 500px;
+	outline: 1px solid white;
+	padding: 1rem;
+}
+
+.spriteSheet {
+	display: grid;
+	gap: 2rem;
+	padding: 2rem;
+	border-radius: 0.2rem;
+}
+
+.footer {
+}

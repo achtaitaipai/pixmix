@@ -56,9 +56,9 @@ function View() {
 					<Sprite key={spr} />
 				))}
 			</main>
-			<footer className={style.footer} ref={loaderRef}>
-				<p>Loading...</p>
-			</footer>
+			<span className={style.footer} ref={loaderRef}>
+				Loading ...
+			</span>
 		</>
 	)
 }

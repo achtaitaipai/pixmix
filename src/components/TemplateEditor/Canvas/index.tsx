@@ -6,8 +6,8 @@ import templateAtom, {
 	setPixelAtom,
 	widthAtom,
 } from '../../../lib/store/template'
-import style from './style.module.css'
 import SizeEditor from './SizeEditor'
+import style from './style.module.css'
 
 interface CanvasProps {
 	cursorValue: string

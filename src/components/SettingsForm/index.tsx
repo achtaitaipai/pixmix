@@ -1,4 +1,5 @@
 import { useAtom } from 'jotai'
+import useDebounce from '../../lib/hooks/useDebounce'
 import {
 	bgColorAtom,
 	bodyColorAtom,
@@ -13,8 +14,11 @@ function SettingsForm() {
 	const [mirrorX, setMirrorX] = useAtom(mirrorXAtom)
 	const [mirrorY, setMirrorY] = useAtom(mirrorYAtom)
 	const [bodyColor, setBodyColor] = useAtom(bodyColorAtom)
+	const setBody = useDebounce(bodyColor, setBodyColor, 500)
 	const [strokeColor, setStrokeColor] = useAtom(strokeColorAtom)
+	const setStroke = useDebounce(strokeColor, setStrokeColor, 500)
 	const [bgColor, setBgColor] = useAtom(bgColorAtom)
+	const setBg = useDebounce(bgColor, setBgColor, 500)
 	return (
 		<form className={style.form}>
 			<CheckBox
@@ -34,7 +38,7 @@ function SettingsForm() {
 					id="bodyColor"
 					value={bodyColor}
 					onChange={(e) => {
-						setBodyColor(e.currentTarget.value)
+						setBody(e.currentTarget.value)
 					}}
 				/>
 				Body color
@@ -46,7 +50,7 @@ function SettingsForm() {
 					id="strokeColor"
 					value={strokeColor}
 					onChange={(e) => {
-						setStrokeColor(e.currentTarget.value)
+						setStroke(e.currentTarget.value)
 					}}
 				/>
 				Border color
@@ -58,7 +62,7 @@ function SettingsForm() {
 					id="bgColor"
 					value={bgColor}
 					onChange={(e) => {
-						setBgColor(e.currentTarget.value)
+						setBg(e.currentTarget.value)
 					}}
 				/>
 				Bg color

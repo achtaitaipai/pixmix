@@ -18,7 +18,13 @@ function Sprite({
 		() => renderSprite(grid, 1, [settings.bodyColor, settings.strokeColor]),
 		[grid, settings.bodyColor, settings.strokeColor]
 	)
-	return <img src={data} alt={alt} className={style.image} />
+	function handleClick() {
+		const txt = JSON.stringify(template)
+		navigator.clipboard.writeText(txt)
+	}
+	return (
+		<img src={data} alt={alt} className={style.image} onClick={handleClick} />
+	)
 }
 
 export default Sprite

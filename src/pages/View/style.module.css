@@ -41,3 +41,7 @@
 	left: -4px;
 	box-shadow: inset -4px -4px #adafbc;
 }
+
+.footer {
+	margin-block: 2rem;
+}

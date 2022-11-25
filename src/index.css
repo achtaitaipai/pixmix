@@ -1,6 +1,14 @@
-:root {
-	background-color: black;
-	color: white;
+body,
+.ladle-main {
+	/* background-color: black; */
+	color: black;
+	font-family: 'Press Start 2P', cursive;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 * {
@@ -11,4 +19,8 @@
 
 #root {
 	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-block: 5rem;
 }

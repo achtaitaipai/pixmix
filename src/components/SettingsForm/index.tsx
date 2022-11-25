@@ -6,6 +6,7 @@ import {
 	mirrorYAtom,
 	strokeColorAtom,
 } from '../../lib/store/settings'
+import CheckBox from '../CheckBox'
 import style from './style.module.css'
 
 function SettingsForm() {
@@ -16,28 +17,17 @@ function SettingsForm() {
 	const [bgColor, setBgColor] = useAtom(bgColorAtom)
 	return (
 		<form className={style.form}>
-			<label htmlFor="mirrorX">
-				MirrorX :
-				<input
-					type="checkbox"
-					name="mirrorX"
-					id="mirrorX"
-					checked={mirrorX}
-					onChange={() => setMirrorX(!mirrorX)}
-				/>
-			</label>
-			<label htmlFor="mirrorY">
-				Mirror Y
-				<input
-					type="checkbox"
-					name="mirrorY"
-					id="mirrorY"
-					checked={mirrorY}
-					onChange={() => setMirrorY(!mirrorY)}
-				/>
-			</label>
+			<CheckBox
+				label="MirrorX"
+				checked={mirrorX}
+				onChange={() => setMirrorX(!mirrorX)}
+			/>
+			<CheckBox
+				label="MirrorY"
+				checked={mirrorY}
+				onChange={() => setMirrorY(!mirrorY)}
+			/>
 			<label htmlFor="bodyColor">
-				Body color :
 				<input
 					type="color"
 					name="bodyColor"
@@ -47,9 +37,9 @@ function SettingsForm() {
 						setBodyColor(e.currentTarget.value)
 					}}
 				/>
+				Body color
 			</label>
 			<label htmlFor="strokeColor">
-				Stroke color :
 				<input
 					type="color"
 					name="strokeColor"
@@ -59,9 +49,9 @@ function SettingsForm() {
 						setStrokeColor(e.currentTarget.value)
 					}}
 				/>
+				Border color
 			</label>
 			<label htmlFor="bgColor">
-				Background color :
 				<input
 					type="color"
 					name="bgColor"
@@ -71,6 +61,7 @@ function SettingsForm() {
 						setBgColor(e.currentTarget.value)
 					}}
 				/>
+				Bg color
 			</label>
 		</form>
 	)

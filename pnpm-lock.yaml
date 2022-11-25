@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/press-start-2p': ^4.5.11
   '@ladle/react': ^2.4.5
   '@types/random-seed': ^0.3.3
   '@types/react': ^18.0.24
@@ -20,6 +21,7 @@ specifiers:
   eslint-plugin-react-hooks: ^4.3.0
   jotai: ^1.10.0
   jsdom: ^20.0.3
+  nes.css: ^2.3.0
   prettier: ^2.7.1
   random-seed: ^0.3.0
   react: ^18.2.0
@@ -29,8 +31,10 @@ specifiers:
   vitest: ^0.25.2
 
 dependencies:
+  '@fontsource/press-start-2p': 4.5.11
   '@ladle/react': 2.4.5_biqbaboplfbrettd7655fr4n2y
   jotai: 1.10.0_react@18.2.0
+  nes.css: 2.3.0
   random-seed: 0.3.0
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -1347,6 +1351,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@fontsource/press-start-2p/4.5.11:
+    resolution: {integrity: sha512-wICB8YPvoBi9Ok7s+CxAOljiQ6wqQN/UhrDrB63q9nudYDSOWmvrjFQaXSlj0AN16nAkDjZiaCz6dcKtR0kleg==}
+    dev: false
 
   /@humanwhocodes/config-array/0.11.7:
     resolution: {integrity: sha512-kBbPWzN8oVMLb0hOUYXhmxggL/1cJE6ydvjDIGi9EnAGUyA7cLVKQg+d/Dsm+KZwx2czGHrCmMVLiyg8s5JPKw==}
@@ -3980,6 +3988,11 @@ packages:
   /negotiator/0.6.3:
     resolution: {integrity: sha512-+EUsqGPLsM+j/zdChZjsnX51g4XrHFOIXwfnCVPGlQk/k5giakcKsuxCObBRu6DSm9opw/O6slWbJdghQM4bBg==}
     engines: {node: '>= 0.6'}
+    dev: false
+
+  /nes.css/2.3.0:
+    resolution: {integrity: sha512-lCFZs9vj3f5RVdbvTL/kSxiYsOARwSeAdJaMNo+bCgmWOO9x8ay7QpT4yQVKHy3r5Dttzd0uqVdpt3fvvx6EpQ==}
+    engines: {node: 10.x}
     dev: false
 
   /node-fetch/2.6.7:

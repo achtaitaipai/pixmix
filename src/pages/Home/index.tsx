@@ -1,16 +1,14 @@
-import { Link } from '@swan-io/chicane'
 import { useAtom } from 'jotai'
 import SettingsForm from '../../components/SettingsForm'
 import Sprite from '../../components/Sprite'
 import TemplateEditor from '../../components/TemplateEditor'
+import { useSetRoute } from '../../lib/store/route'
 import { bgColorAtom } from '../../lib/store/settings'
-import templateAtom from '../../lib/store/template'
-import Router from '../../Router'
 import style from './style.module.css'
 
 function Index() {
-	const [template] = useAtom(templateAtom)
 	const [bgColor] = useAtom(bgColorAtom)
+	const setRoute = useSetRoute()
 	return (
 		<>
 			<main className={style.main}>
@@ -31,7 +29,13 @@ function Index() {
 						<Sprite />
 					</div>
 				</div>
-				<Link to={Router.View()}>{'>'}</Link>
+				<button
+					type="button"
+					className={style.button}
+					onClick={() => setRoute('View')}
+				>
+					{'>'}
+				</button>
 			</main>
 			<footer className={style.footer}>
 				<SettingsForm />

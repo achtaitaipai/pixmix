@@ -7,7 +7,7 @@
 	padding-inline: 15%;
 }
 
-.main a {
+.button {
 	position: fixed;
 	top: 50%;
 	left: 10%;
@@ -32,7 +32,7 @@
 	background-color: #d3d3d3;
 }
 
-.main a::after {
+.button::after {
 	content: '';
 	position: absolute;
 	top: -4px;

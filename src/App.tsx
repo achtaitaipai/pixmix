@@ -1,16 +1,15 @@
 import { match } from 'ts-pattern'
+import { useRoute } from './lib/store/route'
+import Home from './pages/Home'
 import View from './pages/View'
-import Home from './pages/Index'
-import Router from './Router'
 
 function App() {
-	const route = Router.useRoute(['Home', 'View'])
+	const route = useRoute()
 	return (
 		<>
 			{match(route)
-				.with({ name: 'Home' }, () => <Home />)
-				.with({ name: 'View' }, () => <View />)
-				.with(undefined, () => <h1>404 - Page not found</h1>)
+				.with('Home', () => <Home />)
+				.with('View', () => <View />)
 				.exhaustive()}
 		</>
 	)

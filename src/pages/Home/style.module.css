@@ -16,7 +16,7 @@
 	}
 }
 
-.main a {
+.button {
 	position: fixed;
 	top: 50%;
 	right: 10%;
@@ -41,7 +41,7 @@
 	background-color: #d3d3d3;
 }
 
-.main a::after {
+.button::after {
 	content: '';
 	position: absolute;
 	top: -4px;
@@ -100,8 +100,4 @@
 	bottom: -4px;
 	left: -4px;
 	box-shadow: inset -4px -4px #adafbc;
-}
-
-.footer {
-	/* margin: auto; */
 }

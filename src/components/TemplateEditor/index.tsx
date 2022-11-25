@@ -17,8 +17,8 @@ function TemplateEditor() {
 	const [cursorValue, setCursorValue] = useState('-')
 	return (
 		<div className={style.wrapper}>
-			<InputCursor colors={colors} setCursorValue={setCursorValue} />
 			<Canvas colors={colors} cursorValue={cursorValue} />
+			<InputCursor colors={colors} setCursorValue={setCursorValue} />
 		</div>
 	)
 }

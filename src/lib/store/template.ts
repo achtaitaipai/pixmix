@@ -3,14 +3,14 @@ import { atomWithStorage } from 'jotai/utils'
 import PixelsValues from '../sprite/PixelValues'
 
 const templateAtom = atomWithStorage('template', [
-	'.X_-x...',
-	'........',
-	'........',
-	'........',
-	'........',
-	'........',
-	'........',
-	'........',
+	'..xx',
+	'..xx',
+	'x..x',
+	'xxxx',
+	'..xx',
+	'..xx',
+	'..x.',
+	'.xx.',
 ])
 
 export const widthAtom = atom((get) => get(templateAtom)[0].length)

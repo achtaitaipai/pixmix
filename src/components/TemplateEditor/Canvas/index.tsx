@@ -22,6 +22,7 @@ function Canvas({ cursorValue, colors }: CanvasProps) {
 	const canvasRef = useRef<HTMLCanvasElement>(null)
 
 	function handleMove(e: React.PointerEvent<HTMLCanvasElement>) {
+		e.preventDefault()
 		const rect = canvasRef.current?.getBoundingClientRect()
 		if (!rect) return
 		const pixelSize = rect.width / Math.max(width, height)
@@ -64,6 +65,7 @@ function Canvas({ cursorValue, colors }: CanvasProps) {
 				width={width}
 				height={height}
 				onPointerMove={handleMove}
+				onPointerDown={handleMove}
 			/>
 		</div>
 	)

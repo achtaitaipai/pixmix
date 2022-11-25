@@ -1,15 +1,15 @@
+import { Link } from '@swan-io/chicane'
 import { useAtom } from 'jotai'
-import { useState } from 'react'
 import SettingsForm from '../../components/SettingsForm'
 import Sprite from '../../components/Sprite'
 import TemplateEditor from '../../components/TemplateEditor'
 import { bgColorAtom } from '../../lib/store/settings'
 import templateAtom from '../../lib/store/template'
+import Router from '../../Router'
 import style from './style.module.css'
 
 function Index() {
 	const [template] = useAtom(templateAtom)
-	const [refresh, setRefresh] = useState(false)
 	const [bgColor] = useAtom(bgColorAtom)
 	return (
 		<>
@@ -20,17 +20,18 @@ function Index() {
 						className={style.spriteWrapper}
 						style={{ backgroundColor: bgColor }}
 					>
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
-						<Sprite template={template} />
+						<Sprite />
+						<Sprite />
+						<Sprite />
+						<Sprite />
+						<Sprite />
+						<Sprite />
+						<Sprite />
+						<Sprite />
+						<Sprite />
 					</div>
 				</div>
+				<Link to={Router.View()}>{'>'}</Link>
 			</main>
 			<footer className={style.footer}>
 				<SettingsForm />

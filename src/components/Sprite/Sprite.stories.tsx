@@ -13,132 +13,132 @@ export function SpriteStories() {
 				gap: '1rem',
 			}}
 		>
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
-			<Sprite template={template} />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
+			<Sprite />
 		</div>
 	)
 }

@@ -5,7 +5,7 @@ export const mirrorXAtom = atomWithStorage('mirrorX', true)
 export const mirrorYAtom = atomWithStorage('mirrorY', false)
 export const bodyColorAtom = atomWithStorage('bodyColor', '#ffffff')
 export const strokeColorAtom = atomWithStorage('strokeColor', '#000000')
-export const bgColorAtom = atomWithStorage('bgColor', '#000000')
+export const bgColorAtom = atomWithStorage('bgColor', '#ffffff')
 
 export const settingsAtom = atom((get) => ({
 	mirrorX: get(mirrorXAtom),

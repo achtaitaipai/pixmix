@@ -10,6 +10,7 @@
 }
 
 .canvas {
+	border: 8px solid black;
 	image-rendering: crisp-edges;
 	image-rendering: pixelated;
 	object-fit: contain;

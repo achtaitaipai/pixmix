@@ -1,6 +1,6 @@
 import { create as randomSeed } from 'random-seed'
 import mirror from './mirror'
-import render, { HslValue } from './render'
+import render from './render'
 import shape from './shape'
 import stroke from './stroke'
 

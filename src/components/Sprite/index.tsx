@@ -2,14 +2,14 @@ import { useAtom } from 'jotai'
 import { ImgHTMLAttributes, useMemo } from 'react'
 import createSprite, { renderSprite } from '../../lib/sprite/index'
 import { settingsAtom } from '../../lib/store/settings'
+import templateAtom from '../../lib/store/template'
 import style from './image.module.css'
 
-interface ImageProps extends ImgHTMLAttributes<HTMLImageElement> {
-	template: string[]
-}
-
-function Sprite({ template, alt = 'generated sprite' }: ImageProps) {
+function Sprite({
+	alt = 'generated sprite',
+}: ImgHTMLAttributes<HTMLImageElement>) {
 	const [settings] = useAtom(settingsAtom)
+	const [template] = useAtom(templateAtom)
 	const grid = useMemo(
 		() => createSprite(template, settings.mirrorX, settings.mirrorY),
 		[template, settings.mirrorX, settings.mirrorY]

@@ -1,17 +1,9 @@
-.canvas {
-	border: 1px solid black;
-	image-rendering: crisp-edges;
-	image-rendering: pixelated;
-	width: 100%;
-	display: block;
-}
-
 .inputCursor {
 	display: grid;
 	grid-template-columns: repeat(5, 1fr);
 	width: fit-content;
 	margin: auto;
-	margin-bottom: 1rem;
+	margin-top: 3rem;
 }
 .inputCursor label {
 	position: relative;

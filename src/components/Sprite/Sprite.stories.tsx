@@ -1,10 +1,6 @@
-import { useAtom } from 'jotai'
 import Sprite from '.'
-import templateAtom from '../../lib/store/template'
 
 export function SpriteStories() {
-	const [template] = useAtom(templateAtom)
-
 	return (
 		<div
 			style={{

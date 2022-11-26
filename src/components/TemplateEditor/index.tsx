@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import PixelsValues from '../../lib/sprite/PixelValues'
-import SettingsForm from '../SettingsForm'
 import Canvas from './Canvas'
 import InputCursor from './InputCursor'
 import style from './templateEditor.module.css'
